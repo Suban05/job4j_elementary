@@ -1,9 +1,10 @@
 package ru.job4j.calculator;
 
 public class Calculator {
-    public static int diff(int arg1, int arg2){
+    public static int diff(int arg1, int arg2) {
         return arg2 - arg1;
     }
+
     public static void main(String[] args) {
         int one = 1;
         int two = 2;
