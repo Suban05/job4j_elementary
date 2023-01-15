@@ -1,4 +1,4 @@
-package ru.job4j.calculator;
+package ru.job4j.calculate;
 
 public class Calculator {
     public static int diff(int arg1, int arg2) {
