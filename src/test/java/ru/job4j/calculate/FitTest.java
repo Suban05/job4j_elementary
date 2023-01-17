@@ -22,4 +22,12 @@ public class FitTest {
         double out = Fit.womanWeight(in);
         Assert.assertEquals(expected, out, 0.01);
     }
+
+    @Test
+    public void whenWoman169Then70() {
+        short in = 169;
+        double expected = 70;
+        double out = Fit.womanWeight(in);
+        Assert.assertEquals(expected, out, 3.15);
+    }
 }
