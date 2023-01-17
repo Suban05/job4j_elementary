@@ -15,6 +15,7 @@ public class SqAreaTest {
         double out = SqArea.square(p, k);
         Assert.assertEquals(expected, out, 0.01);
     }
+
     @Test
     public void whenP3K1Square0dot56() {
         double expected = 0.56;
