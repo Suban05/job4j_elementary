@@ -11,7 +11,8 @@ public class ArrayDefinition {
     }
 
     public static void messageNames(String[] names) {
-        for (String name:
+        for (String name
+                :
                 names) {
             System.out.println(name);
         }
