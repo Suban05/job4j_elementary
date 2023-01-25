@@ -5,7 +5,7 @@ public class ArrayDefinition {
         String[] names = new String[4];
         names[0] = "Bob";
         names[1] = "Poul";
-        names[2] = "Mark";
+        names[2] = "Max";
         names[3] = "Mike";
         return names;
     }
