@@ -10,8 +10,8 @@ public class ArrayLoop {
     }
 
     public static void messageNumbers(int[] numbers) {
-        for (int i = 0; i < 5; i++) {
-            System.out.println(numbers[i]);
+        for (int num : numbers) {
+            System.out.println(num);
         }
     }
 
