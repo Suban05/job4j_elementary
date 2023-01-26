@@ -1,10 +1,10 @@
 package ru.job4j.array;
 
 public class AlgoArray {
-    private static void swapElements(int[] array, int index1, int index2) {
-        int temp = array[index1];
-        array[index1] = array[index2];
-        array[index2] = temp;
+    private static void swapElements(int[] array, int source, int dest) {
+        int temp = array[source];
+        array[source] = array[dest];
+        array[dest] = temp;
     }
 
     public static void main(String[] args) {
